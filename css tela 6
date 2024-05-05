@@ -1,0 +1,16 @@
+div {
+            margin-bottom: 10px; 
+           padding: 90px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: beige;
+   
+        }
+        input {
+            display: block; 
+            width: 25%; 
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
