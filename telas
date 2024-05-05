@@ -1,0 +1,6 @@
+mkdir nome_da_pasta
+cd nome_da_pasta
+touch arquivo.txt  # Crie um arquivo dentro da pasta
+git add .          # Adicione os arquivos ao staging
+git commit -m "Adicionando pasta e arquivo"
+git push origin master
