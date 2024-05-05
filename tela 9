@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras informações</title>
+    <style> 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <h1>Outras informações</h1>
+
+        <h2>Formas de pagamento</h2>
+        <p>As formas de pagamento podem ser em dinheiro ou pix. Para realizar o pagamento, será enviada uma mensagem de WhatsApp para fazer o pix por meio do qual se enviará o código QR do pagamento sendo acordado pelo mesmo canal.</p>
+
+        <h2>Entrega e horários</h2>
+        <p>As encomendas podem ser com delivery ou podem ser retiradas. Os dias disponíveis são de segunda a sexta-feira, das <strong>08h00 às 18h00.</strong></p>
+        <p>Inclusive a entrega no valor de R$8,00 (atualmente se entrega para o Rio Vermelho) e não estão mais com a opção de retirada no local.</p>
+    </div>
+</body>
+</html>
