@@ -36,8 +36,7 @@
         <label for="amountToPay">Valor a pagar:</label>
         <input type="number" id="amountToPay" step="0.01">
 
-        <button onclick="submitOrder()">Finalizar</button>
-    </form>
+       <a href="https://codepen.io/cami-s-the-builder/full/WNWVEOV" target="_blank" >Finalizar</a>
 </div>
 
 <div class="confirmation-message" hidden>
