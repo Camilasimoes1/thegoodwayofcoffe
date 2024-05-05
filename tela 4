@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+
+<html lang="pt-br"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Menu de Salgados</title> 
+
+    <style> 
+
+         
+
+        body { 
+
+            font-family: Arial, sans-serif; 
+
+            margin: 0; 
+
+            padding: 0; 
+
+            background-color: #f9f9f9; 
+
+        } 
+
+        /* Estilos do cabeçalho */ 
+
+        header { 
+
+            background-color: #fefefe; 
+
+            color: #070707; 
+
+            padding: 30px; 
+
+        } 
+
+         
+
+    </style> 
+
+</head> 
+
+<body> 
+
+    <header> 
+
+        <nav> 
+
+            <a href="#">Menu</a> 
+
+            <div style="clear: both;"></div> 
+
+            <div style="margin: 0px"></div> 
+
+         
+
+            <a href="" target="_blank" style="float: right;">Carrinho</a> 
+
+            <style> 
+
+                a{ 
+
+                text-decoration: none; 
+
+                background-color: rgb(251, 250, 250); 
+
+                color: rgb(0, 0, 0); 
+
+                border-radius: 10px; 
+
+                padding: 10px 20px; 
+
+                } 
+
+                a:hover { 
+
+                    background-color: rgb(246, 144, 1); 
+
+                } 
+
+            </style> 
+
+        </nav> 
+
+        </header> 
+
+     
+
+  
+
+    <main> 
+
+  
+
+        <div class="Cafecosta" style="float: left;"> 
+
+            <img src="C:\Users\camil\Downloads\cafécol.png" alt="avocado-item" width="150" height="150" style="padding: 40px;"> 
+
+            <h2>Café de Costa Rica</h2> 
+
+                <p>para duas pessoas<br> 
+
+                 $25.00.</p> 
+
+        </div> 
+
+        <div class="Honduras"   style="float: left;"> 
+
+            <img src="C:\Users\camil\Downloads\bigstock-roasted-coffee-beans-ground-c-217339573-scaled.jpeg" alt="Imagem 2" width="150" height="150" style="padding: 40px;" > 
+
+            <h2>Café de Honduras</h2> 
+
+                <p>Para duas pessoas<br> 
+
+                 $24.50.</p> 
+
+        </div> 
+
+        <div class="Ethiopia" style="float: left;"> 
+
+            <img src="file:///C:/Users/camil/Downloads/maria-y-montejo-cafe-merida-4.webp" alt="Imagem 3" width="150" height="150"style="padding: 40px;" > 
+
+            <h2>Café de Ethiopia</h2> 
+
+                <p>Para duas pessoas<br> 
+
+                $29.50.</p> 
+
+        </div> 
+
+         
+
+        <div class="Colombia" style="float: left;"> 
+
+            <img src="C:\Users\camil\Downloads\imagescaf.jpeg" alt="Imagem 4" width="150" height="150" style="padding: 40px;"> 
+
+            <h2>Café de Colombia</h2> 
+
+            <p>Para duas pessoas<br> 
+
+                 $26.00.</p> 
+
+        </div> 
+
+        <div class="Latte" style="float: left;"> 
+
+            <img src="C:\Users\camil\Downloads\latte.jpeg" alt="Imagem 4" width="150" height="150" style="padding: 40px;"> 
+
+            <h2>Cafe Latte</h2> 
+
+            <p>$8.50</p> 
+
+        </div> 
+
+        <div class="Cappucciono" style="float: left;"> 
+
+            <img src="file:///C:/Users/camil/Downloads/capuchino.webp" alt="Imagem 4" width="150" height="150" style="padding: 40px;"> 
+
+            <h2>Cafe Cappuccino</h2> 
+
+            <p>$8.50</p> 
+
+        </div> 
+
+       
+
+       
+
+       
+        
+
+        <!-- Repita para outros itens de comida --> 
+
+    </main> 
+
+</body> 
+
+</html> 
