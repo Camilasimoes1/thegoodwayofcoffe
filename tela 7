@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 60px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: large;
+        }
+
+        .reservation-item {
+            margin-bottom: 10px;
+        }
+
+        .price-date {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .address-time {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .delete-btn {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 5px;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Minhas reservas</div>
+        <div class="reservation-item">
+            <div class="price-date">
+                <span>1 - Croissant de presunto, Ricota, Tomate, maçã.</span>
+                <span>$25.00</span>
+          </div>
+          <div>
+                <span>2 - Café Late.</span>
+            <span>$8.50</span>
+            </div>
+            <div class="address-time">
+              <span>Data:</span>
+              <span>02/04/24</span>
+                
+            </div>
+          <div class="address-time">
+            <span>Hora:</span>
+            <span>16:00 hs</span>
+        </div>
+        <div class="reservation-item">
+            <div class="price-date">
+              
+            </div>
+          
+            </div>
+        </div>
+        <div class="address-time">
+            <span>Total:</span>
+            <span>$33.50</span>
+        </div>
+        <div class="address-time">
+            <span>Endereço:</span>
+            <span>Av. Brasil 150, Rio Vermelho</span>
+        </div>
+        <div class="delete-btn">
+          <span>Excluir</span>
+        </div>
+    </div>
+</body>
+</html>
