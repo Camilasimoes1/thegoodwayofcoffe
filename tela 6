@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="order-form">
+    <h2>Pedido:</h2>
+    <form id="orderForm">
+        <label for="products">Produtos:</label>
+        <input type="text" id="products">
+
+        <label for="fullName">Nome Completo:</label>
+        <input type="text" id="fullName">
+
+        <label for="phone">Número de telefone:</label>
+        <input type="text" id="phone">
+     
+        <label for="paymentMethod">Forma de pagamento:</label>
+        <select id="paymentMethod">
+            <option value="credit">Pix</option>
+            <option value="cash">Dinheiro</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <label for="dateTime">Data e horário:</label>
+        <input type="datetime-local" id="dateTime">
+
+        <label for="localDelivery">Entrega no local:</label>
+        <input type="checkbox" id="localDelivery">
+
+        <label for="amountToPay">Valor a pagar:</label>
+        <input type="number" id="amountToPay" step="0.01">
+
+        <button onclick="submitOrder()">Finalizar</button>
+    </form>
+</div>
+
+<div class="confirmation-message" hidden>
+    <p>Obrigado pela sua compra!</p>
+    <p>Entraremos em contato com você em breve!</p>
+    <!-- Add an image of a coffee cup here if desired -->
+</div>
+ 
+
+<script src="script.js"></script>
+</body>
+</html>
