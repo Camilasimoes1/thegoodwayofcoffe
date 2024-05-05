@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Salgados</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        /* Estilos do cabeçalho */
+        header {
+            background-color: #fefefe;
+            color: #070707;
+            padding: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Menu</a>
+            <div style="clear: both;"></div>
+            <div style="margin: 0px"></div>
+        
+            <a href="" target="_blank" style="float: right;">Carrinho</a>
+            <style>
+                a{
+                text-decoration: none;
+                background-color: rgb(251, 250, 250);
+                color: rgb(0, 0, 0);
+                border-radius: 10px;
+                padding: 10px 20px;
+                }
+                a:hover {
+                    background-color: rgb(246, 144, 1);
+                }
+            </style>
+        </nav>
+        </header>
+    
+
+    <main>
+
+        <div class="Avocado" style="float: left;">
+            <img src="C:\Users\camil\Downloads\avocado.jpg" alt="avocado-item" width="150" height="150" style="padding: 40px;">
+            <h2>Avocado Toast</h2>
+                <p>com ovo, palta, tomate<br>
+                e cebolinha, $35.00.</p>
+        </div>
+        <div class="croassaint"   style="float: left;">
+            <img src="C:\Users\camil\Downloads\fc8a1312d135bb3e698d7426c5d6c751.jpg" alt="Imagem 2" width="150" height="150" style="padding: 40px;" >
+            <h2>Croissaint</h2>
+                <p>Presunto, rúcula, tomate<br>
+                    maça (rodelhas), $28.50.</p>
+        </div>
+        <div class="sandwich" style="float: left;">
+            <img src="C:\Users\camil\Downloads\31365a108ea7e3f3d598be403f0955d7.jpg" alt="Imagem 3" width="150" height="150"style="padding: 40px;" >
+            <h2>Sandwich</h2>
+                <p>Alface, queijo, tomate<br>
+                ovo e carne, $32.00.</p>
+        </div>
+        
+        <div class="coxinha" style="float: left;">
+            <img src="C:\Users\camil\Downloads\coxinha.jpg" alt="Imagem 4" width="150" height="150" style="padding: 40px;">
+            <h2>Coxinha</h2>
+            <p>(3 unidades)<br>
+                 $18.00.</p>
+        </div>
+
+        <div class="mix" style="float: left;">
+            <img src="C:\Users\camil\Downloads\mix.jpeg" alt="Imagem 4" width="150" height="150" style="padding: 40px;">
+            <h2>Mixto</h2>
+            <p>Presunto e queijo<br>
+                $14.00.</p>
+        </div>
+        <!-- Repita para outros itens de comida -->
+    </main>
+</body>
+</html>
