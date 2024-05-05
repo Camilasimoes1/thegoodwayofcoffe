@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosso Café</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 20px;
+            border-bottom: #bbb9b9 solid 1px;
+        }
+        header h1 {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        section {
+            margin-top: 20px;
+        }
+        section h2 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        section p {
+            color: #555;
+            line-height: 25px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sobre nosso café</h1>
+    </header>
+  <div class="container">
+        <section id="colombia">
+            <h2>Nosso Café</h2>
+            <p>Tem origens diferentes, que dão um sabor diferente à vida!. Nosso serviço oferece distintos cafés para todos e para cada ocasião que você gostaria de dar. Também tem um bom acompanhamento de alimentos doces ou salgados para poder aprovetá-lo ao máximo.</p>
+    <div class="container">
+        <section id="colombia">
+          
+            <h2>Colômbia</h2>
+            <p>A Colômbia continua sendo um dos principais produtores de café do mundo e é conhecida pela qualidade de seus grãos. O café colombiano  é cultivado em várias regiões, incluindo Antioquia, Huila e Cauca. Além disso, o café colombiano é apreciado por seu sabor suave e notas frutadas. </p>
+        </section>
+        <section id="CostaRica">
+            <h2>Costa Rica</h2>
+            <p>Destaca-se pelo seu sabor suave, corpo equilibrado e notas aromáticas distintas. É reconhecida como umas das principais produtoras de café de qualidade da região. Esta bebida está profundamente enraizada na cultura e na vida dos costariquenhos, desde a sseleção das sementes até a forma de como é servida.</p>
+        </section>
+        <section id="honduras">
+            <h2>Honduras</h2>
+            <p>É mais do que uma simple bebida. É um simbolo da cultura. Suas lavouras de café, localizadas em áreas montanhosas de clima ideal, produzem grãos de café aromáticos e saborosos. </p>
+        </section>
+       <section id="Etio">
+            <h2>Ethiopia</h2>
+            <p>Como berço do café, a Ethiopia desempenha um papel fundamental na historia e na cultura do café. Os cafés são valorizados por sua diversidade de sabores e pela sua qualidade de seus grãos. </p>
+        </section>
+        <footer>
+          <h2>Contacte-nos</h2> através do número +44 9956-8734</footer>
+    </div>
+</body>
+</html>
