@@ -1,3 +1,5 @@
+/* elementos do javascript para o funcionamento da tela 2 */
+
 var btnSignin = document.querySelector("#signin");
 var btnSignup = document.querySelector("#signup");
 
