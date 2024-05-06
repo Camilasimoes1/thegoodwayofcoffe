@@ -6,6 +6,8 @@
     <title>Menu de Salgados</title>
     <style>
         
+/* tela número 3 do site, com seus elementos e estilos */
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
