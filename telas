@@ -10,7 +10,6 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
-  /* tela número 2 do site, "Log-in" com seus elementos e estilos. Também contém um arquivo de javascript */
 <style>
     body{
     font-family: 'Open Sans', sans-serif;
